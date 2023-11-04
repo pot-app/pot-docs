@@ -13,10 +13,19 @@ export const zhConfig = {
     ],
     themeConfig: {
         nav: [
-            { text: '主页', link: '/' },
+            { text: '使用指南', link: '/docs/', activeMatch: '/docs/' },
             { text: '更新日志', link: '/changelog' },
             { text: '下载', link: '/download' },
-            { text: '使用指南', link: '/docs/' },
+            {
+                text: '社区交流',
+                items: [
+                    { text: 'Telegram', link: 'https://t.me/pot_app' },
+                    { text: 'Matrix', link: 'https://matrix.to/#/#pot-app:matrix.org' },
+                    { text: 'QQ频道', link: 'https://pd.qq.com/s/akns94e1r' },
+                    { text: 'QQ群组', link: '/img/qq_group.png' },
+                    { text: '电子邮件', link: 'mailto:support@pot-app.com' }
+                ]
+            },
             { text: '关于', link: '/about' }
         ],
         sidebar: {
@@ -46,7 +55,7 @@ export const zhConfig = {
             ]
         },
         footer: {
-            message: '基于GPL-3.0开源许可协议',
+            message: '基于GPL-3.0开源协议发布',
             copyright: 'Copyright © 2023-present Pot-App'
         }
     }

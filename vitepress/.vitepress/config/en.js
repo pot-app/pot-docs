@@ -13,10 +13,19 @@ export const enConfig = {
     ],
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/en/' },
+            { text: 'Guide', link: '/en/docs/', activeMatch: '/en/docs/' },
             { text: 'Changelog', link: '/en/changelog' },
             { text: 'Download', link: '/en/download' },
-            { text: 'Guide', link: '/en/docs/' },
+            {
+                text: 'Community',
+                items: [
+                    { text: 'Telegram', link: 'https://t.me/pot_app' },
+                    { text: 'Matrix', link: 'https://matrix.to/#/#pot-app:matrix.org' },
+                    { text: 'QQ Channel', link: 'https://pd.qq.com/s/akns94e1r' },
+                    { text: 'QQ Group', link: '/img/qq_group.png' },
+                    { text: 'Email', link: 'mailto:support@pot-app.com' }
+                ]
+            },
             { text: 'About', link: '/en/about' }
         ],
         sidebar: {
