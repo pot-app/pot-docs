@@ -14,7 +14,6 @@ export const zhConfig = {
     themeConfig: {
         nav: [
             { text: '使用指南', link: '/docs/', activeMatch: '/docs/' },
-            { text: '更新日志', link: '/changelog' },
             { text: '下载', link: '/download' },
             {
                 text: '社区交流',

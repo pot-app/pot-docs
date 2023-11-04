@@ -14,7 +14,6 @@ export const enConfig = {
     themeConfig: {
         nav: [
             { text: 'Guide', link: '/en/docs/', activeMatch: '/en/docs/' },
-            { text: 'Changelog', link: '/en/changelog' },
             { text: 'Download', link: '/en/download' },
             {
                 text: 'Community',
