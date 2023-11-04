@@ -45,7 +45,7 @@ export const enConfig = {
                                 { text: 'Backup', link: '/en/docs/config/backup' },
                             ]
                         },
-                        { text: 'Invoke by Other', link: '/en/docs/http' },
+                        { text: 'External Calls', link: '/en/docs/invoke' },
                         { text: 'Plugin System', link: '/en/docs/plugin' },
                         { text: 'Wayland', link: '/en/docs/wayland' },
                         { text: 'API Service', link: '/en/docs/api/', collapsed: true, items: [] },

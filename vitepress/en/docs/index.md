@@ -5,10 +5,10 @@ titleTemplate: User Guide
 
 ## User Guide
 
-| Translation by selection                        | Translate by input                                                    | External calls                                                                         |
-| ----------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Select text and press the shortcut to translate | Press shortcut to open translation window, translate by hitting Enter | More efficient workflow by integrating other apps, see [External Calls](/en/docs/http) |
-| <img src="/img/eg1.gif"/>                       | <img src="/img/eg2.gif"/>                                             | <img src="/img/eg3.gif"/>                                                              |
+| Translation by selection                        | Translate by input                                                    | External calls                                                                           |
+| ----------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Select text and press the shortcut to translate | Press shortcut to open translation window, translate by hitting Enter | More efficient workflow by integrating other apps, see [External Calls](/en/docs/invoke) |
+| <img src="/img/eg1.gif"/>                       | <img src="/img/eg2.gif"/>                                             | <img src="/img/eg3.gif"/>                                                                |
 
 | Clipboard Listening                                                                                                          | Screenshot OCR                     | Screenshot Translation                   |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ---------------------------------------- |
@@ -21,7 +21,7 @@ titleTemplate: User Guide
 - OCR with multiple services
 - Text-to-Speech with multiple services
 - Export to vocabulary apps
-- External calls ([Details](/en/docs/http))
+- External calls ([Details](/en/docs/invoke))
 - Plugin system ([Details](/en/docs/plugin))
 - Support Windows, macOS and Linux
 - Support Wayland (Tested on KDE, Gnome and Hyprland)

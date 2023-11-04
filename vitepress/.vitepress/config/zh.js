@@ -45,7 +45,7 @@ export const zhConfig = {
                                 { text: '备份设置', link: '/docs/config/backup' },
                             ]
                         },
-                        { text: '外部调用', link: '/docs/http' },
+                        { text: '外部调用', link: '/docs/invoke' },
                         { text: '插件系统', link: '/docs/plugin' },
                         { text: 'Wayland', link: '/docs/wayland' },
                         { text: 'API服务申请', link: '/docs/api/', collapsed: true, items: [] },
