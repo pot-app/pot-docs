@@ -75,7 +75,7 @@ brew upgrade --cask pot
 :::warning 故障排除
 
 - 在最新版本的 [Webkit2Gtk](https://archlinux.org/packages/extra/x86_64/webkit2gtk) (2.42.0) 中，由于 Nvidia 专有驱动未完全实现 DMABUF，将导致无法启动和崩溃的情况发生，如果遇到 `段错误` 或 Pot 无法启动的情况，请尝试在 `/etc/environment` （或者其他设置环境变量的地方）中加入 `WEBKIT_DISABLE_DMABUF_RENDERER=1` 环境变量关闭 DMABUF 的使用。
-- Wayland 用户无法使用应用内快捷键，请参考文档[设置系统快捷键](/docs/config/hotkey)
+- Wayland 用户无法使用应用内快捷键，请参考文档[设置系统快捷键](/docs/wayland#快捷键无法使用)
 
 :::
 
