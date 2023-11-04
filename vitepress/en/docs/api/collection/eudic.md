@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: API Service
+titleTemplate: Eudic
 ---
 
-# API Service
+# Eudic
 
 :::info
 Waiting for translation...

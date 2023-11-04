@@ -35,7 +35,7 @@ export const enConfig = {
                     items: [
                         { text: 'Install Guide', link: '/en/docs/install' },
                         {
-                            text: 'Software Config', link: '/en/docs/config/', collapsed: true, items: [
+                            text: 'Software Config', collapsed: true, items: [
                                 { text: 'General', link: '/en/docs/config/general' },
                                 { text: 'Hotkey', link: '/en/docs/config/hotkey' },
                                 { text: 'Translate', link: '/en/docs/config/translate' },
@@ -47,7 +47,38 @@ export const enConfig = {
                         { text: 'External Calls', link: '/en/docs/invoke' },
                         { text: 'Plugin System', link: '/en/docs/plugin' },
                         { text: 'Wayland', link: '/en/docs/wayland' },
-                        { text: 'API Service', link: '/en/docs/api/', collapsed: true, items: [] },
+                        {
+                            text: 'API Service', link: '/en/docs/api/', collapsed: true,
+                            items: [
+                                {
+                                    text: 'Text Translation', collapsed: true,
+                                    items: [
+                                        { text: 'Baidu', link: '/en/docs/api/translate/baidu' },
+                                        { text: 'Alibaba', link: '/en/docs/api/translate/alibaba' },
+                                        { text: 'Caiyun', link: '/en/docs/api/translate/caiyun' },
+                                        { text: 'DeepL', link: '/en/docs/api/translate/deepl' },
+                                        { text: 'Google', link: '/en/docs/api/translate/google' },
+                                        { text: 'OpenAI', link: '/en/docs/api/translate/openai' },
+                                        { text: 'Tencent', link: '/en/docs/api/translate/tencent' },
+                                        { text: 'Transmart', link: '/en/docs/api/translate/transmart' },
+                                        { text: 'Volcengine', link: '/en/docs/api/translate/volcengine' }
+                                    ]
+                                },
+                                {
+                                    text: 'Text Recogniztion', collapsed: true,
+                                    items: [
+                                        { text: 'Baidu OCR', link: '/en/docs/api/recognize/baidu' }
+                                    ]
+                                },
+                                {
+                                    text: 'Word Collection', collapsed: true,
+                                    items: [
+                                        { text: 'Anki', link: '/en/docs/api/collection/anki' },
+                                        { text: 'Eudic', link: '/en/docs/api/collection/eudic' }
+                                    ]
+                                }
+                            ]
+                        },
                         { text: 'FAQ', link: '/en/docs/faq' },
                     ]
                 }

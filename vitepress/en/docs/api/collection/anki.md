@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: API Service
+titleTemplate: Anki
 ---
 
-# API Service
+# Anki
 
 :::info
 Waiting for translation...

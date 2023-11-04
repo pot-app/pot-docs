@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: API Service
+titleTemplate: Baidu OCR
 ---
 
-# API Service
+# Baidu OCR
 
 :::info
 Waiting for translation...

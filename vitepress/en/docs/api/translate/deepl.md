@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: API Service
+titleTemplate: DeepL
 ---
 
-# API Service
+# Deepl
 
 :::info
 Waiting for translation...

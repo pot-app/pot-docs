@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: API Service
+titleTemplate: Tencent
 ---
 
-# API Service
+# Tencent
 
 :::info
 Waiting for translation...

@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: API Service
+titleTemplate: OpenAI
 ---
 
-# API Service
+# OpenAI
 
 :::info
 Waiting for translation...

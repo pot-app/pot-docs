@@ -35,19 +35,51 @@ export const zhConfig = {
                     items: [
                         { text: '安装指南', link: '/docs/install' },
                         {
-                            text: '软件配置', link: '/docs/config/', collapsed: true, items: [
+                            text: '软件配置', collapsed: true,
+                            items: [
                                 { text: '常规设置', link: '/docs/config/general' },
                                 { text: '快捷键设置', link: '/docs/config/hotkey' },
                                 { text: '翻译设置', link: '/docs/config/translate' },
                                 { text: '文字识别设置', link: '/docs/config/recognize' },
                                 { text: '服务设置', link: '/docs/config/service' },
-                                { text: '备份设置', link: '/docs/config/backup' },
+                                { text: '备份设置', link: '/docs/config/backup' }
                             ]
                         },
                         { text: '外部调用', link: '/docs/invoke' },
                         { text: '插件系统', link: '/docs/plugin' },
                         { text: 'Wayland', link: '/docs/wayland' },
-                        { text: 'API服务申请', link: '/docs/api/', collapsed: true, items: [] },
+                        {
+                            text: 'API服务申请', link: '/docs/api/', collapsed: true,
+                            items: [
+                                {
+                                    text: '文本翻译', collapsed: true,
+                                    items: [
+                                        { text: '百度翻译', link: '/docs/api/translate/baidu' },
+                                        { text: '阿里翻译', link: '/docs/api/translate/alibaba' },
+                                        { text: '彩云小译', link: '/docs/api/translate/caiyun' },
+                                        { text: 'DeepL', link: '/docs/api/translate/deepl' },
+                                        { text: '谷歌翻译', link: '/docs/api/translate/google' },
+                                        { text: 'OpenAI', link: '/docs/api/translate/openai' },
+                                        { text: '腾讯翻译君', link: '/docs/api/translate/tencent' },
+                                        { text: '腾讯交互翻译', link: '/docs/api/translate/transmart' },
+                                        { text: '火山翻译', link: '/docs/api/translate/volcengine' }
+                                    ]
+                                },
+                                {
+                                    text: '文字识别', collapsed: true,
+                                    items: [
+                                        { text: '百度OCR', link: '/docs/api/recognize/baidu' }
+                                    ]
+                                },
+                                {
+                                    text: '生词本', collapsed: true,
+                                    items: [
+                                        { text: 'Anki', link: '/docs/api/collection/anki' },
+                                        { text: '欧路词典', link: '/docs/api/collection/eudic' }
+                                    ]
+                                }
+                            ]
+                        },
                         { text: '常见问题', link: '/docs/faq' },
                     ]
                 }
