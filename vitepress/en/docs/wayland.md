@@ -17,7 +17,7 @@ In some pure Wayland DE/WM (such as Hyprland), the built-in screenshot feature o
 
 Below is an example of configuration in Hyprland (capturing screenshots using `grim` and `slurp`):
 
-```conf
+```ini
 bind = ALT, X, exec, grim -g "$(slurp)" ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && curl "127.0.0.1:60828/ocr_recognize?screenshot=false"
 bind = ALT, C, exec, grim -g "$(slurp)" ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && curl "127.0.0.1:60828/ocr_translate?screenshot=false"
 ```
