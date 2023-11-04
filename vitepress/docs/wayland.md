@@ -17,7 +17,7 @@ titleTemplate: Wayland
 
 下面给出在 Hyprland 下的配置示例(通过 grim 和 slurp 实现截图)：
 
-```conf
+```ini
 bind = ALT, X, exec, grim -g "$(slurp)" ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && curl "127.0.0.1:60828/ocr_recognize?screenshot=false"
 bind = ALT, C, exec, grim -g "$(slurp)" ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && curl "127.0.0.1:60828/ocr_translate?screenshot=false"
 ```

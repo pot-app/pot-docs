@@ -28,7 +28,7 @@ Other desktop environments/window managers also have similar operations.
 
 Due to the current inability of pot to obtain correct mouse coordinates under Wayland, its internal implementation cannot work. For certain desktop environments/window managers, window rules can be set to achieve window following mouse position. Here we take Hyprland as an example:
 
-```conf
+```ini
 windowrulev2 = float, class:(pot), title:(Translator|OCR|PopClip|Screenshot Translate) # Translation window floating
 windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screenshot Translate) # Translation window follows the mouse position.
 ```
