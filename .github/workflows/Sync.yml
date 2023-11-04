@@ -12,7 +12,7 @@ jobs:
       - name: Mirror
         uses: SvanBoxel/gitlab-mirror-and-ci-action@master
         with:
-          args: "https://jihulab.com/pot-app/pot-desktop"
+          args: "https://jihulab.com/pot-app/pot-docs"
         env:
           FOLLOW_TAGS: "false"
           FORCE_PUSH: "false"
