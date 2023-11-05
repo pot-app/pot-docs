@@ -3,13 +3,11 @@
 layout: home
 
 title: Pot
-titleTemplate: Cross-platform text translation and ocr recognize
+titleTemplate: Translation & OCR
 
 hero:
   name: "Pot"
-  text: |
-    Cross-platform
-    text translation and ocr recognize
+  text: "Translation & OCR"
   tagline: Your last translation software
   image: /logo/pot.png
   actions:
