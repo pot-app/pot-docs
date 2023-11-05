@@ -92,7 +92,7 @@ export const zhConfig = {
                                 {
                                     text: '语音合成', collapsed: true,
                                     items: [
-                                        { text: 'Lingva', link: '/en/docs/api/tts/lingva' }
+                                        { text: 'Lingva', link: '/docs/api/tts/lingva' }
                                     ]
                                 }
                             ]
