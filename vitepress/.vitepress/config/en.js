@@ -59,7 +59,10 @@ export const enConfig = {
                                         { text: 'Caiyun', link: '/en/docs/api/translate/caiyun' },
                                         { text: 'DeepL', link: '/en/docs/api/translate/deepl' },
                                         { text: 'Google', link: '/en/docs/api/translate/google' },
+                                        { text: 'ChatGLM', link: '/en/docs/api/translate/chatglm' },
                                         { text: 'OpenAI', link: '/en/docs/api/translate/openai' },
+                                        { text: 'NiuTrans', link: '/en/docs/api/translate/niutrans' },
+                                        { text: 'Youdao', link: '/en/docs/api/translate/youdao' },
                                         { text: 'Tencent', link: '/en/docs/api/translate/tencent' },
                                         { text: 'Transmart', link: '/en/docs/api/translate/transmart' },
                                         { text: 'Volcengine', link: '/en/docs/api/translate/volcengine' }
@@ -68,7 +71,14 @@ export const enConfig = {
                                 {
                                     text: 'Text Recogniztion', collapsed: true,
                                     items: [
-                                        { text: 'Baidu OCR', link: '/en/docs/api/recognize/baidu' }
+                                        { text: 'Baidu OCR', link: '/en/docs/api/recognize/baidu' },
+                                        { text: 'Tencent OCR', link: '/en/docs/api/recognize/tencent' },
+                                        { text: 'VolcEngine OCR', link: '/en/docs/api/recognize/volcengine' },
+                                        { text: 'iFlyTek OCR', link: '/en/docs/api/recognize/iflytek' },
+                                        { text: 'Baidu Image Translate', link: '/en/docs/api/recognize/baidu_img' },
+                                        { text: 'Tencent Image Translate', link: '/en/docs/api/recognize/tencent_img' },
+                                        { text: 'iFlyTek LaTeX', link: '/en/docs/api/recognize/iflytek_latex' },
+                                        { text: 'Simple LaTeX', link: '/en/docs/api/recognize/simple_latex' },
                                     ]
                                 },
                                 {
@@ -76,6 +86,12 @@ export const enConfig = {
                                     items: [
                                         { text: 'Anki', link: '/en/docs/api/collection/anki' },
                                         { text: 'Eudic', link: '/en/docs/api/collection/eudic' }
+                                    ]
+                                },
+                                {
+                                    text: 'Text to Speech', collapsed: true,
+                                    items: [
+                                        { text: 'Lingva', link: '/en/docs/api/tts/lingva' }
                                     ]
                                 }
                             ]

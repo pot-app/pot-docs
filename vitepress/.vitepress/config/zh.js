@@ -60,7 +60,10 @@ export const zhConfig = {
                                         { text: '彩云小译', link: '/docs/api/translate/caiyun' },
                                         { text: 'DeepL', link: '/docs/api/translate/deepl' },
                                         { text: '谷歌翻译', link: '/docs/api/translate/google' },
+                                        { text: '质谱 AI', link: '/docs/api/translate/chatglm' },
                                         { text: 'OpenAI', link: '/docs/api/translate/openai' },
+                                        { text: '小牛翻译', link: '/docs/api/translate/niutrans' },
+                                        { text: '有道翻译', link: '/docs/api/translate/youdao' },
                                         { text: '腾讯翻译君', link: '/docs/api/translate/tencent' },
                                         { text: '腾讯交互翻译', link: '/docs/api/translate/transmart' },
                                         { text: '火山翻译', link: '/docs/api/translate/volcengine' }
@@ -69,7 +72,14 @@ export const zhConfig = {
                                 {
                                     text: '文字识别', collapsed: true,
                                     items: [
-                                        { text: '百度OCR', link: '/docs/api/recognize/baidu' }
+                                        { text: '百度 OCR', link: '/docs/api/recognize/baidu' },
+                                        { text: '腾讯 OCR', link: '/docs/api/recognize/tencent' },
+                                        { text: '火山 OCR', link: '/docs/api/recognize/volcengine' },
+                                        { text: '讯飞 OCR', link: '/docs/api/recognize/iflytek' },
+                                        { text: '百度图片翻译', link: '/docs/api/recognize/baidu_img' },
+                                        { text: '腾讯图片翻译', link: '/docs/api/recognize/tencent_img' },
+                                        { text: '讯飞公式识别', link: '/docs/api/recognize/iflytek_latex' },
+                                        { text: 'Simple LaTeX', link: '/docs/api/recognize/simple_latex' },
                                     ]
                                 },
                                 {
@@ -77,6 +87,12 @@ export const zhConfig = {
                                     items: [
                                         { text: 'Anki', link: '/docs/api/collection/anki' },
                                         { text: '欧路词典', link: '/docs/api/collection/eudic' }
+                                    ]
+                                },
+                                {
+                                    text: '语音合成', collapsed: true,
+                                    items: [
+                                        { text: 'Lingva', link: '/en/docs/api/tts/lingva' }
                                     ]
                                 }
                             ]
