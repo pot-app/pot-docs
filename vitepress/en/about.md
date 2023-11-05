@@ -17,7 +17,7 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/Pylogmon' },
       { icon: {svg: emailIcon }, link:'mailto:pylogmon@pot-app.com' },
-      { icon: {svg: moneyIcon }, link:'https://afdian.net/a/pylogmon' }
+      { icon: {svg: moneyIcon }, link:'https://ko-fi.com/pylogmon' }
     ]
   },
   {
