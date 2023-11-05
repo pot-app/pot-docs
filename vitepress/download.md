@@ -13,6 +13,7 @@ const version = ref('')
 axios.get('https://jihulab.com/api/v4/projects/153845/releases/permalink/latest').then(res => {
     version.value = res.data.tag_name
 })
+
 const download = (arch,ext)=>{
     if(version.value===undefined || version.value === ''){
         open('https://jihulab.com/pot-app/pot-desktop/-/releases')
