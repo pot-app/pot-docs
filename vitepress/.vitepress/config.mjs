@@ -6,10 +6,10 @@ import { zhConfig } from './config/zh'
 export default defineConfig({
   title: "Pot",
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo/pot.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/img/favicon.ico' }]
   ],
   themeConfig: {
-    logo: '/logo/pot.png',
+    logo: '/logo/icon.svg',
     siteTitle: 'Pot',
     // https://vitepress.dev/reference/default-theme-config
     search: {

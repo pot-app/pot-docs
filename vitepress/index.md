@@ -9,7 +9,7 @@ hero:
   name: "Pot"
   text: "跨平台划词翻译和OCR"
   tagline: 您的最后一款翻译软件
-  image: /logo/pot.png
+  image: /logo/icon.svg
   actions:
     - theme: brand
       text: 下载

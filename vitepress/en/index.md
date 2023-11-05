@@ -9,7 +9,7 @@ hero:
   name: "Pot"
   text: "Translation & OCR"
   tagline: Your last translation software
-  image: /logo/pot.png
+  image: /logo/icon.svg
   actions:
     - theme: brand
       text: Download
