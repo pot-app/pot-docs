@@ -6,7 +6,7 @@ export const zhConfig = {
     description: META_DESCRIPTION,
     head: [
         ['meta', { property: 'og:url', content: META_URL }],
-        ['meta', { property: 'og:image', content: 'https://pot-app.com/screenshots/dark_zh.png' }],
+        ['meta', { property: 'og:image', content: 'https://pot-app.com/img/pot-social-card.png' }],
         ['meta', { property: 'og:description', content: META_DESCRIPTION }],
         ['meta', { property: 'twitter:url', content: META_URL }],
         ['meta', { property: 'twitter:title', content: META_TITLE }],
