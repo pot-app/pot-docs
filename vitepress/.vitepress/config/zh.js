@@ -89,6 +89,10 @@ export const zhConfig = {
         footer: {
             message: '基于GPL-3.0开源协议发布',
             copyright: 'Copyright © 2023-present Pot-App'
+        },
+        editLink: {
+            pattern: 'https://github.com/pot-app/pot-docs-vitepress/edit/main/vitepress/:path',
+            text: '在 GitHub 上编辑此页面'
         }
     }
 }
