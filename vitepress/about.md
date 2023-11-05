@@ -2,6 +2,7 @@
 title: Pot
 titleTemplate: 关于
 layout: doc
+editLink: false
 ---
 
 <script setup>
