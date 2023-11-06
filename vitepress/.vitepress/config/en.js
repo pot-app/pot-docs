@@ -139,8 +139,8 @@ export const enConfig = {
       ],
     },
     footer: {
-      message: "Released under the GPL-3.0 License.",
-      copyright: "Copyright © 2023-present Pot-App",
+      message: "Released under the <a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE'>GPL-3.0</a> License",
+      copyright: "<a href='https://beian.miit.gov.cn'>蜀ICP备2023031468号-1</a> | Copyright © 2023-present <a href='https://github.com/pot-app'>Pot-App</a>",
     },
     editLink: {
       pattern:
