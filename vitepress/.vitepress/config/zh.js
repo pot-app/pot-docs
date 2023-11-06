@@ -129,8 +129,8 @@ export const zhConfig = {
       ],
     },
     footer: {
-      message: "基于<a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE'>GPL-3.0</a>开源协议发布",
-      copyright: "<a href='https://beian.miit.gov.cn'>蜀ICP备2023031468号-1</a> | Copyright © 2023-present <a href='https://github.com/pot-app'>Pot-App</a>",
+      message: "基于<a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE' target='_blank'>GPL-3.0</a>开源协议发布",
+      copyright: "<a href='https://beian.miit.gov.cn' target='_blank'>蜀ICP备2023031468号-1</a> | Copyright © 2023-present <a href='https://github.com/pot-app' target='_blank'>Pot-App</a>",
     },
     editLink: {
       pattern:

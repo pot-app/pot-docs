@@ -68,4 +68,4 @@ const members = [
 
 ## More contributors
 
-<img src='https://github.com/pot-app/.github/blob/master/pot-desktop-contributions.svg?raw=true' alt='contributors' style='width: 100%' />
+<a href='https://github.com/pot-app/pot-desktop/graphs/contributors' target='_blank'><img src='https://github.com/pot-app/.github/blob/master/pot-desktop-contributions.svg?raw=true' alt='contributors' style='width: 100%' /></a>
