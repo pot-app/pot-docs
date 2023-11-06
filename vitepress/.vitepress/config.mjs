@@ -6,7 +6,7 @@ import { zhConfig } from "./config/zh";
 export default defineConfig({
   title: "Pot",
   head: [
-    ["link", { rel: "icon", type: "image/png", href: "/img/favicon.ico" }],
+    ["link", { rel: "icon", type: "image/png", href: "/favicon.ico" }],
   ],
   themeConfig: {
     logo: "/logo/icon.svg",

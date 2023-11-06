@@ -14,7 +14,6 @@ export const enConfig = {
     ["meta", { property: "twitter:description", content: META_DESCRIPTION }],
     ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-D9P8XT4LJS" }],
     ["script", { async: "", src: "/js/google.js" }],
-    ["script", { async: "", src: "https://cdn.wwads.cn/js/makemoney.js" }],
     ["script", { async: "", src: "/js/baidu.js" }],
     ["script", { async: "", src: "/js/microsoft.js" }],
   ],
