@@ -12,6 +12,11 @@ export const enConfig = {
     ["meta", { property: "twitter:url", content: META_URL }],
     ["meta", { property: "twitter:title", content: META_TITLE }],
     ["meta", { property: "twitter:description", content: META_DESCRIPTION }],
+    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-D9P8XT4LJS" }],
+    ["script", { async: "", src: "/js/google.js" }],
+    ["script", { async: "", src: "https://cdn.wwads.cn/js/makemoney.js" }],
+    ["script", { async: "", src: "/js/baidu.js" }],
+    ["script", { async: "", src: "/js/microsoft.js" }],
   ],
   themeConfig: {
     nav: [
