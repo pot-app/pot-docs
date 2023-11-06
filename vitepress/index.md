@@ -3,11 +3,11 @@
 layout: home
 
 title: Pot
-titleTemplate: 跨平台划词翻译和OCR
+titleTemplate: 跨平台划词翻译和OCR技术使用分享
 
 hero:
-  name: "Pot"
-  text: "跨平台划词翻译和OCR"
+  name: Pot
+  text: 跨平台划词翻译和OCR
   tagline: 您的最后一款翻译软件
   image: /logo/icon.svg
   actions:

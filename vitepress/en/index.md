@@ -6,8 +6,8 @@ title: Pot
 titleTemplate: Translation & OCR
 
 hero:
-  name: "Pot"
-  text: "Translation & OCR"
+  name: Pot
+  text: Translation & OCR
   tagline: Your last translation software
   image: /logo/icon.svg
   actions:
