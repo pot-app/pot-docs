@@ -133,8 +133,8 @@ export const zhConfig = {
       ],
     },
     footer: {
-      message: "基于<a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE' target='_blank'>GPL-3.0</a>开源协议发布<br/>Copyright © 2023-present <a href='https://github.com/pot-app' target='_blank'>Pot-App</a>",
-      copyright: "<span style='display: flex; justify-content: center'><a href='https://beian.miit.gov.cn' target='_blank'>蜀ICP备2023031468号-1</a><img src='/img/gongan.png' style='height: 18px; margin: auto 8px'><a href='https://beian.mps.gov.cn/#/query/webSearch?code=51019002005996' rel='noreferrer' target='_blank'>川公网安备51019002005996</a></span>",
+      message: "基于<a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE' target='_blank'><b>GPL-3.0</b></a>开源协议发布<br/>Copyright © 2023-present <a href='https://github.com/pot-app' target='_blank'><b>Pot-App</b></a>",
+      copyright: "<span style='display: flex; justify-content: center'><a href='https://beian.miit.gov.cn' target='_blank'><b>蜀ICP备2023031468号-1</b></a><img src='/img/gongan.png' style='height: 18px; margin: auto 8px'><a href='https://beian.mps.gov.cn/#/query/webSearch?code=51019002005996' rel='noreferrer' target='_blank'><b>川公网安备51019002005996</b></a></span>",
     },
     editLink: {
       pattern:
