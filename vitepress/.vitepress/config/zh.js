@@ -11,6 +11,7 @@ export const zhConfig = {
     ["meta", { property: "twitter:url", content: META_URL }],
     ["meta", { property: "twitter:title", content: META_TITLE }],
     ["meta", { property: "twitter:description", content: META_DESCRIPTION }],
+    ["meta", { property: "google-adsense-account", content: "ca-pub-2287479151560516" }],
     ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-D9P8XT4LJS" }],
     ["script", { async: "", src: "/js/google.js" }],
     ["script", { async: "", src: "/js/baidu.js" }],
