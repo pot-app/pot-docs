@@ -2,6 +2,8 @@
 import { h } from "vue";
 import Theme from "vitepress/theme";
 import AppPreview from "./components/AppPreview.vue";
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
+import { useData, useRoute } from 'vitepress';
 import "./style.css";
 
 /** @type {import('vitepress').Theme} */
@@ -16,4 +18,21 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // ...
   },
+  setup() {
+    const { frontmatter } = useData();
+    const route = useRoute();
+    giscusTalk({
+      repo: 'pot-app/pot-desktop',
+      repoId: 'R_kgDOJCp3Ww',
+      category: 'General',
+      categoryId: 'DIC_kwDOJCp3W84CUrQN',
+      mapping: 'title',
+      inputPosition: 'top',
+      lang: 'zh-CN',
+    }, {
+      frontmatter, route
+    },
+      true
+    );
+  }
 };
