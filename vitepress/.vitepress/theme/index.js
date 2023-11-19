@@ -29,6 +29,8 @@ export default {
       mapping: 'title',
       inputPosition: 'top',
       lang: 'zh-CN',
+      lightTheme: 'https://pot-app.com/styles/giscus_light.css',
+      darkTheme: 'https://pot-app.com/styles/giscus_dark.css'
     }, {
       frontmatter, route
     },
