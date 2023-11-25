@@ -140,7 +140,7 @@ git clone https://github.com/pot-app/pot-desktop.git
 2. 安装构建依赖 (Linux Only)
 
 ```bash
-sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libappindicator3-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
+sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator-dev librsvg2-dev patchelf libxdo-dev libxcb1 libxrandr2 libdbus-1-3
 ```
 
 3. 开始编译
