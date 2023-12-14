@@ -8,23 +8,15 @@ layout: page
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = ref('')
-
-axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater').then(res => {
-    version.value = res.data.body
-})
+const version = '2.7.2'
 
 const download = (arch,ext)=>{
-    if(version.value===undefined || version.value === ''){
-        open('https://github.com/pot-app/pot-desktop/releases/latest')
+    if(ext === 'exe'){
+        open(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}-setup.exe`)
+    }else if(ext === 'dmg'){
+        open(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.dmg`)
     }else{
-        if(ext === 'exe'){
-            open(`https://github.com/pot-app/pot-desktop/releases/download/${version.value}/pot_${version.value}_${arch}-setup.exe`)
-        }else if(ext === 'dmg'){
-            open(`https://github.com/pot-app/pot-desktop/releases/download/${version.value}/pot_${version.value}_${arch}.dmg`)
-        }else{
-            open(`https://github.com/pot-app/pot-desktop/releases/download/${version.value}/pot_${version.value}_${arch}.${ext}`)
-        }
+        open(`https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.${ext}`)
     }
 }
 </script>

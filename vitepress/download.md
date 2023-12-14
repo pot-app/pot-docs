@@ -8,24 +8,15 @@ layout: page
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = ref('')
-
-axios.get('https://jihulab.com/api/v4/projects/153845/releases/permalink/latest').then(res => {
-    version.value = res.data.tag_name
-})
+const version = '2.7.2'
 
 const download = (arch,ext)=>{
-    if(version.value===undefined || version.value === ''){
-        open('https://jihulab.com/pot-app/pot-desktop/-/releases')
+    if(ext === 'exe'){
+        open(`https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}-setup.exe`)
+    }else if(ext === 'dmg'){
+        open(`https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.dmg`)
     }else{
-        if(ext === 'exe'){
-            open(`https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${version.value}/pot_${version.value}_${arch}-setup.exe`)
-        }else if(ext === 'dmg'){
-            open(`https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${version.value}/pot_${version.value}_${arch}.dmg`)
-        }else{
-            open(`https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${version.value}/pot_${version.value}_${arch}.${ext}`)
-        }
-        
+        open(`https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.${ext}`)
     }
 }
 </script>
