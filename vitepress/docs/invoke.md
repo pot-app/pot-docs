@@ -59,6 +59,10 @@ rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/
 
 ## 现有用法 (快捷划词翻译)(推荐使用)
 
+### 效果展示
+
+![Popup example](/img/eg3.gif)
+
 ### SnipDo (Windows)
 
 1. 从 [Microsoft Store](https://apps.microsoft.com/store/detail/snipdo/9NPZ2TVKJVT7) 下载安装 SnipDo。

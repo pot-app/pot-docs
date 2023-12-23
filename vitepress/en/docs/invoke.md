@@ -59,6 +59,10 @@ rm ~/.cache/com.pot-app.desktop/pot_screenshot_cut.png && flameshot gui -s -p ~/
 
 ## Existing Usages (Quick selection translation)(Recommended)
 
+### Effect display
+
+![Popup example](/img/eg3.gif)
+
 ### SnipDo (Windows)
 
 1. Download and install SnipDo in the [Microsoft Store](https://apps.microsoft.com/store/detail/snipdo/9NPZ2TVKJVT7)
