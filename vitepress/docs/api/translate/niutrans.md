@@ -31,8 +31,7 @@ titleTemplate: 小牛翻译
 
 ### 第二步：获取小牛翻译 API Key
 
-点击跳转[获取秘钥页面](https://niutrans.com/cloud/account_info/info)
-登录 `控制台`，选择 `个人中心` ，在翻译API部分可看到，查看及复制前需先点击右侧的显示按钮，将“**”符号变为具体内容。（绑定手机号之后才可以查看哦）
+点击跳转[获取秘钥页面](https://niutrans.com/cloud/account_info/info)，或者登录 `控制台`，选择 `个人中心` ，在翻译API部分可看到，查看及复制前需先点击右侧的显示按钮，将“**”符号变为具体内容。（绑定手机号之后才可以查看哦）
 
 ![](./asset/niutrans3.png)
 
