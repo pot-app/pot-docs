@@ -65,6 +65,10 @@ export const enConfig = {
                   text: "Text Translation",
                   collapsed: true,
                   items: [
+                    {
+                      text: "NiuTrans",
+                      link: "/en/docs/api/translate/niutrans",
+                    },
                     { text: "Baidu", link: "/en/docs/api/translate/baidu" },
                     { text: "Alibaba", link: "/en/docs/api/translate/alibaba" },
                     { text: "Caiyun", link: "/en/docs/api/translate/caiyun" },
@@ -72,10 +76,6 @@ export const enConfig = {
                     { text: "Google", link: "/en/docs/api/translate/google" },
                     { text: "ChatGLM", link: "/en/docs/api/translate/chatglm" },
                     { text: "OpenAI", link: "/en/docs/api/translate/openai" },
-                    {
-                      text: "NiuTrans",
-                      link: "/en/docs/api/translate/niutrans",
-                    },
                     { text: "Youdao", link: "/en/docs/api/translate/youdao" },
                     { text: "Tencent", link: "/en/docs/api/translate/tencent" },
                     {

@@ -64,6 +64,7 @@ export const zhConfig = {
                   text: "文本翻译",
                   collapsed: true,
                   items: [
+                    { text: "小牛翻译(推荐)", link: "/docs/api/translate/niutrans" },
                     { text: "百度翻译", link: "/docs/api/translate/baidu" },
                     { text: "阿里翻译", link: "/docs/api/translate/alibaba" },
                     { text: "彩云小译", link: "/docs/api/translate/caiyun" },
@@ -71,7 +72,6 @@ export const zhConfig = {
                     { text: "谷歌翻译", link: "/docs/api/translate/google" },
                     { text: "质谱 AI", link: "/docs/api/translate/chatglm" },
                     { text: "OpenAI", link: "/docs/api/translate/openai" },
-                    { text: "小牛翻译", link: "/docs/api/translate/niutrans" },
                     { text: "有道翻译", link: "/docs/api/translate/youdao" },
                     { text: "腾讯翻译君", link: "/docs/api/translate/tencent" },
                     {
