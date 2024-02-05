@@ -9,7 +9,7 @@ The built-in services are limited. But you can expand the app's functionality th
 
 ## Install Plugin
 
-You can find plugins you need in the [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) repo, and then go to the plugin repo to download it.
+You can find plugins you need in the [Plugin List](/en/plugin), and then download it.
 
 The file extension of pot plugin is `.potext`. After downloading the `.potext` file, go to `Config - Service Settings - Add Extension - Install Plugin` to select the corresponding `.potext` to install it. It will then be added to the service list and can be used like a built-in service.
 

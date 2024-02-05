@@ -9,7 +9,7 @@ titleTemplate: 插件系统
 
 ## 插件安装
 
-你可以在 [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) 仓库查找你需要的插件，然后前往插件仓库下载插件。
+你可以在 [插件列表](/plugin) 查找你需要的插件，然后下载插件。
 
 pot 插件的扩展名为 `.potext`, 下载得到`.potext`文件之后， 在 `偏好设置-服务设置-添加外部插件-安装外部插件` 选择对应的 `.potext` 即可安装成功，添加到服务列表中即可像内置服务一样正常使用了。
 
