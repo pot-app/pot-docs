@@ -11,7 +11,7 @@ import axios from 'axios'
 
 const info = ref({})
 
-axios.get('https://raw.githubusercontent.com/pot-app/pot-app-plugin-list/main/list.json').then(res => {
+axios.get('https://gh.pylogmon.com/https://raw.githubusercontent.com/pot-app/pot-app-plugin-list/main/list.json').then(res => {
     info.value = res.data
 })
 
