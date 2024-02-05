@@ -22,6 +22,7 @@ export const enConfig = {
     nav: [
       { text: "Guide", link: "/en/docs/", activeMatch: "/en/docs/" },
       { text: "Download", link: "/en/download" },
+      { text: "Plugin List", link: "/en/plugin" },
       {
         text: "Community",
         items: [
