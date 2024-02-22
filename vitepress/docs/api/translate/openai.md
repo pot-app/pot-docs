@@ -45,22 +45,19 @@ pot 已经提供了自定义域名的设置，在设置中填写你自己的域�
 
 pot 提供了软件内代理设置(软件内代理对 OpenAI 流式输出无效，若使用流式输出需要开启系统代理)
 
-### 方法 3：使用第三方服务
+### 方法 3：使用第三方服务（推荐）
 
 由于本应用支持设置自定义请求域名，所有您可以直接设置使用第三方的服务
 
-#### aiproxy
+#### AuHubMix
 
-1. 注册 [aiproxy](https://aiproxy.io/?i=pylogmon)
-2. 获取 Api Key
-3. 将自定义域名设置为`api.aiproxy.io`
-4. 在设置中填入获取到的 `Api Key`
+1. 打开[AuHubMix](https://aihubmix.com/register?aff=trJY)官网注册并登录
+2. 点击`顶部导航栏-充值`,购买代理APIkey并兑换额度
+3. 购买完成后点击`顶部导航栏-令牌-创建令牌`
+4. 在 pot 中将自定义域名设置为`orisound.cn`
+5. 在设置中填入创建的令牌密钥保存即可
 
-   ![aiproxy](./asset/aiproxy.png)
-
-:::info
-使用 aiproxy 的计费请参考 aiproxy 的[计费说明](https://aiproxy.io/pricing)
-:::
+   ![AuHubMix](./asset/aihubmix.png)
 
 #### AI.LS
 
