@@ -49,21 +49,21 @@ pot 提供了软件内代理设置(软件内代理对 OpenAI 流式输出无效�
 
 由于本应用支持设置自定义请求域名，所有您可以直接设置使用第三方的服务
 
-#### AuHubMix
+#### AiHubMix
 
-1. 打开[AuHubMix](https://aihubmix.com/register?aff=trJY)官网注册并登录
+1. 打开[AiHubMix](https://aihubmix.com/register?aff=trJY)官网注册并登录
 2. 点击`顶部导航栏-充值`,购买代理APIkey并兑换额度
 
-   ![AuHubMix](./asset/aihubmix1.png)
+   ![AiHubMix](./asset/aihubmix1.png)
 
 3. 购买完成后点击`顶部导航栏-令牌-创建令牌`
 
-   ![AuHubMix](./asset/aihubmix2.png)
+   ![AiHubMix](./asset/aihubmix2.png)
 
 4. 在 pot 中将自定义域名设置为`orisound.cn`
 5. 在设置中填入创建的令牌密钥保存即可
 
-   ![AuHubMix](./asset/aihubmix3.png)
+   ![AiHubMix](./asset/aihubmix3.png)
 
 #### AI.LS
 
