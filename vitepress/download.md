@@ -8,7 +8,7 @@ layout: page
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = '2.7.7'
+const version = '2.7.8'
 
 const download = (arch,ext)=>{
     if(ext === 'exe'){
