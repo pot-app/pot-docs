@@ -121,6 +121,18 @@ If you are using the `archlinuxcn` repository, you can directly install it using
 sudo pacman -S pot-translation
 ```
 
+### Flatpak
+
+:::warning
+
+The tray icon is missing in Flatpak version.
+
+:::
+
+<a href='https://flathub.org/apps/com.pot_app.pot'>
+    <img width='240' alt='Download on Flathub' src='https://flathub.org/api/badge?locale=en'/>
+</a>
+
 ## Manual Compilation
 
 ### Required Tools
