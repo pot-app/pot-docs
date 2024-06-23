@@ -34,39 +34,6 @@ const illegal = "https://img.shields.io/badge/illegal-grey"
 <ul>
     <li v-for="item in info.template">
     <a :href="item.url" target="blank">{{ item.name }}</a><img v-if="item.offical" style="display:inline" :src="offical"/> <img v-if="item.illegal" style="display:inline" :src="illegal"/> - {{ item.desc_zh }}
-    <details v-if="item.platform['x86_64-pc-windows-msvc']">
-        <summary>下载</summary>
-        <span v-if="item.platform['x86_64-pc-windows-msvc']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-pc-windows-msvc.zip`" target="blank">Windows x64</a>
-        </span>
-        <span v-if="item.platform['i686-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-pc-windows-msvc.zip`" target="blank">Windows x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-pc-windows-msvc.zip`" target="blank">Windows arm64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-apple-darwin']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-apple-darwin.zip`" target="blank">MacOS x64</a>
-        </span>
-        <span v-if="item.platform['aarch64-apple-darwin']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-apple-darwin.zip`" target="blank">MacOS aarch64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-unknown-linux-gnu']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-unknown-linux-gnu.zip`" target="blank">Linux x64</a>
-        </span>
-        <span v-if="item.platform['i686-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-unknown-linux-gnu.zip`" target="blank">Linux x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-unknown-linux-gnu.zip`" target="blank">Linux aarch64</a>
-        </span>
-        <span v-if="item.platform['armv7-unknown-linux-gnueabihf']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/armv7-unknown-linux-gnueabihf.zip`" target="blank">Linux armv7</a>
-        </span>
-        <br/><br/>
-    </details>
     </li>
 </ul>
 
@@ -75,39 +42,6 @@ const illegal = "https://img.shields.io/badge/illegal-grey"
 <ul>
     <li v-for="item in info.translate">
     <a :href="item.url" target="blank">{{ item.name }}</a> <img v-if="item.offical" style="display:inline" :src="offical"/> <img v-if="item.illegal" style="display:inline" :src="illegal"/> - {{ item.desc_zh }}
-    <details v-if="item.platform['x86_64-pc-windows-msvc']">
-        <summary>下载</summary>
-        <span v-if="item.platform['x86_64-pc-windows-msvc']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-pc-windows-msvc.zip`" target="blank">Windows x64</a>
-        </span>
-        <span v-if="item.platform['i686-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-pc-windows-msvc.zip`" target="blank">Windows x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-pc-windows-msvc.zip`" target="blank">Windows arm64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-apple-darwin']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-apple-darwin.zip`" target="blank">MacOS x64</a>
-        </span>
-        <span v-if="item.platform['aarch64-apple-darwin']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-apple-darwin.zip`" target="blank">MacOS aarch64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-unknown-linux-gnu']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-unknown-linux-gnu.zip`" target="blank">Linux x64</a>
-        </span>
-        <span v-if="item.platform['i686-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-unknown-linux-gnu.zip`" target="blank">Linux x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-unknown-linux-gnu.zip`" target="blank">Linux aarch64</a>
-        </span>
-        <span v-if="item.platform['armv7-unknown-linux-gnueabihf']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/armv7-unknown-linux-gnueabihf.zip`" target="blank">Linux armv7</a>
-        </span>
-        <br/><br/>
-    </details>
     </li>
 </ul>
 
@@ -116,39 +50,6 @@ const illegal = "https://img.shields.io/badge/illegal-grey"
 <ul>
     <li v-for="item in info.recognize">
     <a :href="item.url" target="blank">{{ item.name }}</a><img v-if="item.offical" style="display:inline" :src="offical"/> <img v-if="item.illegal" style="display:inline" :src="illegal"/> - {{ item.desc_zh }}
-    <details v-if="item.platform['x86_64-pc-windows-msvc']">
-        <summary>下载</summary>
-        <span v-if="item.platform['x86_64-pc-windows-msvc']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-pc-windows-msvc.zip`" target="blank">Windows x64</a>
-        </span>
-        <span v-if="item.platform['i686-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-pc-windows-msvc.zip`" target="blank">Windows x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-pc-windows-msvc.zip`" target="blank">Windows arm64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-apple-darwin']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-apple-darwin.zip`" target="blank">MacOS x64</a>
-        </span>
-        <span v-if="item.platform['aarch64-apple-darwin']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-apple-darwin.zip`" target="blank">MacOS aarch64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-unknown-linux-gnu']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-unknown-linux-gnu.zip`" target="blank">Linux x64</a>
-        </span>
-        <span v-if="item.platform['i686-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-unknown-linux-gnu.zip`" target="blank">Linux x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-unknown-linux-gnu.zip`" target="blank">Linux aarch64</a>
-        </span>
-        <span v-if="item.platform['armv7-unknown-linux-gnueabihf']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/armv7-unknown-linux-gnueabihf.zip`" target="blank">Linux armv7</a>
-        </span>
-        <br/><br/>
-    </details>
     </li>
 </ul>
 
@@ -157,39 +58,6 @@ const illegal = "https://img.shields.io/badge/illegal-grey"
 <ul>
     <li v-for="item in info.tts">
     <a :href="item.url" target="blank">{{ item.name }}</a><img v-if="item.offical" style="display:inline" :src="offical"/> <img v-if="item.illegal" style="display:inline" :src="illegal"/> - {{ item.desc_zh }}
-    <details v-if="item.platform['x86_64-pc-windows-msvc']">
-        <summary>下载</summary>
-        <span v-if="item.platform['x86_64-pc-windows-msvc']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-pc-windows-msvc.zip`" target="blank">Windows x64</a>
-        </span>
-        <span v-if="item.platform['i686-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-pc-windows-msvc.zip`" target="blank">Windows x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-pc-windows-msvc.zip`" target="blank">Windows arm64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-apple-darwin']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-apple-darwin.zip`" target="blank">MacOS x64</a>
-        </span>
-        <span v-if="item.platform['aarch64-apple-darwin']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-apple-darwin.zip`" target="blank">MacOS aarch64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-unknown-linux-gnu']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-unknown-linux-gnu.zip`" target="blank">Linux x64</a>
-        </span>
-        <span v-if="item.platform['i686-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-unknown-linux-gnu.zip`" target="blank">Linux x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-unknown-linux-gnu.zip`" target="blank">Linux aarch64</a>
-        </span>
-        <span v-if="item.platform['armv7-unknown-linux-gnueabihf']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/armv7-unknown-linux-gnueabihf.zip`" target="blank">Linux armv7</a>
-        </span>
-        <br/><br/>
-    </details>
     </li>
 </ul>
 
@@ -198,38 +66,5 @@ const illegal = "https://img.shields.io/badge/illegal-grey"
 <ul>
     <li v-for="item in info.collection">
     <a :href="item.url" target="blank">{{ item.name }}</a><img v-if="item.offical" style="display:inline" :src="offical"/> <img v-if="item.illegal" style="display:inline" :src="illegal"/> - {{ item.desc_zh }}
-    <details v-if="item.platform['x86_64-pc-windows-msvc']">
-        <summary>下载</summary>
-        <span v-if="item.platform['x86_64-pc-windows-msvc']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-pc-windows-msvc.zip`" target="blank">Windows x64</a>
-        </span>
-        <span v-if="item.platform['i686-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-pc-windows-msvc.zip`" target="blank">Windows x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-pc-windows-msvc']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-pc-windows-msvc.zip`" target="blank">Windows arm64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-apple-darwin']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-apple-darwin.zip`" target="blank">MacOS x64</a>
-        </span>
-        <span v-if="item.platform['aarch64-apple-darwin']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-apple-darwin.zip`" target="blank">MacOS aarch64</a>
-            <br/>
-        </span>
-        <span v-if="item.platform['x86_64-unknown-linux-gnu']">
-            <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/x86_64-unknown-linux-gnu.zip`" target="blank">Linux x64</a>
-        </span>
-        <span v-if="item.platform['i686-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/i686-unknown-linux-gnu.zip`" target="blank">Linux x86</a>
-        </span>
-        <span v-if="item.platform['aarch64-unknown-linux-gnu']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/aarch64-unknown-linux-gnu.zip`" target="blank">Linux aarch64</a>
-        </span>
-        <span v-if="item.platform['armv7-unknown-linux-gnueabihf']">
-            | <a :href="`https://gh.pylogmon.com/${item.url}/releases/latest/download/armv7-unknown-linux-gnueabihf.zip`" target="blank">Linux armv7</a>
-        </span>
-        <br/><br/>
-    </details>
     </li>
 </ul>
