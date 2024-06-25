@@ -5,6 +5,24 @@ titleTemplate: FAQ
 
 # FAQ
 
+## Windows 7 Not Supported
+
+:::warning Windows 7 Not Supported
+
+- Reason
+
+  Pot always uses the latest version of Rust for compilation, which no longer supports Windows 7.
+
+- Solution
+
+  Run using the [vxiiduu/VxKex](https://github.com/vxiiduu/VxKex) project. Follow these steps:
+  
+  1. Download `KexSetup_Release_x_x_x_xxxx.exe` from [Releases](https://github.com/vxiiduu/VxKex/releases) and install it.
+  2. Navigate to the Pot installation directory, right-click `pot.exe`, and open Properties.
+  3. Find the `VxKex` tab, check the options `Enable VxKex for this program` and `Disable VxKex for child processes`, then click Apply.
+  4. You can now use Pot normally.
+:::
+
 ## Deleted by antivirus software
 
 :::warning Deleted by antivirus software
