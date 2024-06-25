@@ -5,6 +5,23 @@ titleTemplate: 常见问题
 
 # 常见问题
 
+## Windows 7 无法使用
+
+:::warning Windows 7 无法使用
+
+- 原因
+
+  Pot始终使用最新版Rust编译，现已不再支持 Windows 7 系统
+
+- 解决方案
+
+  借助 [vxiiduu/VxKex](https://github.com/vxiiduu/VxKex) 项目运行，步骤：
+  1. 在 Releases](https://github.com/vxiiduu/VxKex/releases) 下载 `KexSetup_Release_x_x_x_xxxx.exe` 并安装
+  2. 进入 Pot 安装目录，右键 `pot.exe` 打开属性
+  3. 找到 `VxKex` 选项卡，勾选 `Enable VxKex for this program` 及 `Disable VxKex for child processes` 选项，点击应用。
+  4. 然后即可正常使用 Pot
+:::
+
 ## 被杀毒软件删除
 
 :::warning 被杀毒软件删除
