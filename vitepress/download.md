@@ -12,11 +12,11 @@ const version = '3.0.5'
 
 const download = (arch,ext)=>{
     if(ext === 'exe'){
-        open(`https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}-setup.exe`)
+        open(`https://dl.pot-app.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}-setup.exe`)
     }else if(ext === 'dmg'){
-        open(`https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.dmg`)
+        open(`https://dl.pot-app.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.dmg`)
     }else{
-        open(`https://gh.pylogmon.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.${ext}`)
+        open(`https://dl.pot-app.com/https://github.com/pot-app/pot-desktop/releases/download/${version}/pot_${version}_${arch}.${ext}`)
     }
 }
 </script>
