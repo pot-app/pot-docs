@@ -51,7 +51,7 @@ pot 提供了软件内代理设置(软件内代理对 OpenAI 流式输出无效�
 
 #### AiHubMix
 
-1. 打开[AiHubMix](https://aihubmix.com/models?aff=trJY)官网注册并登录
+1. 打开[AiHubMix](https://aihubmix.com/register?aff=trJY)官网注册并登录
 2. 点击 `顶部导航栏-充值` ,购买代理APIkey并兑换额度
 
    ![AiHubMix](./asset/aihubmix1.png)
