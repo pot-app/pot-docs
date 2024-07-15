@@ -5,7 +5,7 @@ layout: doc
 editLink: false
 ---
 
-# OpenAI API代理服务推荐——[AiHubMix](https://aihubmix.com?aff=trJY)
+# OpenAI API代理服务推荐——[AiHubMix](https://aihubmix.com/models?aff=trJY)
 
 ## 现状
 
@@ -19,7 +19,7 @@ AiHubMix 提供的代理服务让用户可以享受到快速响应的AI服务体
 
 ### 价格
 
-价格一直是用户考虑的重要因素。AiHubMix 不仅提供高速的服务，更提供具有竞争力的价格，1美元 OpenAI API 额度只需人民币5.6元，使得国内用户可以以更低的成本享受到高质量的 OpenAI API 服务。
+价格一直是用户考虑的重要因素。AiHubMix 不仅提供高速的服务，更提供具有竞争力的价格，1美元 OpenAI API 额度只需人民币6.3元，使得国内用户可以以更低的成本享受到高质量的 OpenAI API 服务。
 
 ### 模型支持
 
@@ -29,7 +29,7 @@ AiHubMix 支持了几乎所有常见的大语言模型，OpenAI,Google,阿里通
 
 ## 使用流程
 
-1. 打开[AiHubMix](https://aihubmix.com?aff=trJY)官网注册并登录
+1. 打开[AiHubMix](https://aihubmix.com/models?aff=trJY)官网注册并登录
 2. 点击 `顶部导航栏-充值` ,购买代理APIkey并兑换额度
 3. 购买完成后点击 `顶部导航栏-令牌-创建令牌`
 4. 拿到密钥之后即可在各种支持OpenAI API的各种软件中使用
