@@ -1,0 +1,236 @@
+{
+  "template": [
+    {
+      "name": "pot-app-translate-plugin-template",
+      "desc_en": "Template to create a translate plugin (Lingva)",
+      "desc_zh": "创建翻译插件的模板仓库 (Lingva)",
+      "url": "https://github.com/pot-app/pot-app-translate-plugin-template",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-template",
+      "desc_en": "Template to create a recognize plugin (OCR Space)",
+      "desc_zh": "创建文字识别插件的模板仓库 (OCR Space)",
+      "url": "https://github.com/pot-app/pot-app-recognize-plugin-template",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-tts-plugin-template",
+      "desc_en": "Template to create a tts plugin (Lingva)",
+      "desc_zh": "创建语音合成插件的模板仓库 (Lingva)",
+      "url": "https://github.com/pot-app/pot-app-tts-plugin-template",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-collection-plugin-template",
+      "desc_en": "Template to create a collection plugin (Anki)",
+      "desc_zh": "创建生词本插件的模板仓库 (Anki)",
+      "url": "https://github.com/pot-app/pot-app-collection-plugin-template",
+      "offical": true,
+      "illegal": false
+    }
+  ],
+  "translate": [
+    {
+      "name": "pot-app-translate-plugin-tatoeba",
+      "desc_en": "Tatoeba sentence search plugin",
+      "desc_zh": "Tatoeba 例句查询插件",
+      "url": "https://github.com/pot-app/pot-app-translate-plugin-tatoeba",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-translate-plugin-ecdict",
+      "desc_en": "Offline English-Chinese dictionary plugin (base on ECDICT)",
+      "desc_zh": "离线 英汉词典插件 (基于 ECDICT)",
+      "url": "https://github.com/pot-app/pot-app-translate-plugin-ecdict",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-translate-plugin-libre",
+      "desc_en": "LibreTranslate translate plugin",
+      "desc_zh": "LibreTranslate 翻译插件",
+      "url": "https://github.com/Integral-Tech/pot-app-translate-plugin-libre",
+      "offical": false,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-translate-plugin-freedict",
+      "desc_en": "Free Dictionary API translate plugin",
+      "desc_zh": "Free Dictionary API 英英词典插件",
+      "url": "https://github.com/Integral-Tech/pot-app-translate-plugin-freedict",
+      "offical": false,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-translate-plugin-volcengine",
+      "desc_en": "VolcEngine translate plugin",
+      "desc_zh": "免配置 火山翻译插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-volcengine",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-transmart",
+      "desc_en": "TranSmart translate plugin",
+      "desc_zh": "免配置 腾讯交互翻译插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-transmart",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-moji_dict",
+      "desc_en": "MOJi Dict translate plugin",
+      "desc_zh": "MOJi 辞書 日语查词插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-moji_dict",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-caiyun",
+      "desc_en": "Caiyun translate plugin",
+      "desc_zh": "免配置 彩云小译插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-caiyun",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-tencent",
+      "desc_en": "Tencent translate plugin",
+      "desc_zh": "免配置 腾讯翻译君插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-tencent",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-papago",
+      "desc_en": "Papago translate plugin",
+      "desc_zh": "免配置 Papago翻译插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-papago",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-youdao",
+      "desc_en": "Youdao translate plugin",
+      "desc_zh": "免配置 有道翻译插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-youdao",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-translate-plugin-baidu",
+      "desc_en": "Baidu translate plugin",
+      "desc_zh": "免配置 百度翻译插件",
+      "url": "https://github.com/TechDecryptor/pot-app-translate-plugin-baidu",
+      "offical": false,
+      "illegal": true
+    }
+  ],
+  "recognize": [
+    {
+      "name": "pot-app-recognize-plugin-rapid",
+      "desc_en": "Rapid Offline recognition plugin",
+      "desc_zh": "Rapid 离线文字识别插件",
+      "url": "https://github.com/pot-app/pot-app-recognize-plugin-rapid",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-paddle",
+      "desc_en": "Paddle Offline recognition plugin",
+      "desc_zh": "Paddle 离线文字识别插件",
+      "url": "https://github.com/pot-app/pot-app-recognize-plugin-paddle",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-openai",
+      "desc_en": "OpenAI recognition plugin",
+      "desc_zh": "OpenAI 文字识别插件",
+      "url": "https://github.com/pot-app/pot-app-recognize-plugin-openai",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-google",
+      "desc_en": "Google Cloud recognize plugin",
+      "desc_zh": "Google 文字识别插件",
+      "url": "https://github.com/Integral-Tech/pot-app-recognize-plugin-google",
+      "offical": false,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-doc2x",
+      "desc_en": "Doc2x recognize plugin",
+      "desc_zh": "Doc2x 文字识别插件",
+      "url": "https://github.com/Menghuan1918/pot-app-recognize-plugin-doc2x",
+      "offical": false,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-microsoft",
+      "desc_en": "Microsoft recognize plugin",
+      "desc_zh": "Microsoft 文字识别插件",
+      "url": "https://github.com/omegaduncan/pot-app-recognize-plugin-microsoft",
+      "offical": false,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-recognize-plugin-baimiao",
+      "desc_en": "Baimiao recognize plugin",
+      "desc_zh": "白描 文字识别插件",
+      "url": "https://github.com/TechDecryptor/pot-app-recognize-plugin-baimiao",
+      "offical": false,
+      "illegal": true
+    }
+  ],
+  "tts": [
+    {
+      "name": "pot-app-tts-plugin-openai",
+      "desc_en": "OpenAI TTS plugin",
+      "desc_zh": "OpenAI 语音合成插件",
+      "url": "https://github.com/pot-app/pot-app-tts-plugin-openai",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-tts-plugin-youdao",
+      "desc_en": "Youdao TTS plugin",
+      "desc_zh": "有道语音合成插件",
+      "url": "https://github.com/TechDecryptor/pot-app-tts-plugin-youdao",
+      "offical": false,
+      "illegal": true
+    },
+    {
+      "name": "pot-app-tts-plugin-volcengine",
+      "desc_en": "VolcEngine TTS plugin",
+      "desc_zh": "火山语音合成插件",
+      "url": "https://github.com/TechDecryptor/pot-app-tts-plugin-volcengine",
+      "offical": false,
+      "illegal": true
+    }
+  ],
+  "collection": [
+    {
+      "name": "pot-app-collection-plugin-youdao",
+      "desc_en": "YouDao collection plugin",
+      "desc_zh": "有道生词本插件",
+      "url": "https://github.com/pot-app/pot-app-collection-plugin-youdao",
+      "offical": true,
+      "illegal": false
+    },
+    {
+      "name": "pot-app-collection-plugin-shanbay",
+      "desc_en": "Shanbay collection plugin",
+      "desc_zh": "扇贝生词本插件",
+      "url": "https://github.com/pot-app/pot-app-collection-plugin-shanbay",
+      "offical": true,
+      "illegal": false
+    }
+  ]
+}
