@@ -4,6 +4,13 @@ import { zhConfig } from "./config/zh";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    build: {
+      rollupOptions: {
+        external: ['axios'],
+      },
+    },
+  },
   title: "Pot",
   head: [
     ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
