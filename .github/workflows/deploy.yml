@@ -14,7 +14,7 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
             version: 9
-      - run: pnpm docs:build
+      - run: pnpm i && pnpm docs:build
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
