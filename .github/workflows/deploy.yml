@@ -14,6 +14,9 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
             version: 9
+      - run: |
+          rm vitepress/plugins.json
+          wget https://raw.githubusercontent.com/pot-app/pot-app-plugin-list/main/list.json -O vitepress/plugins.json
       - run: pnpm i && pnpm docs:build
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
