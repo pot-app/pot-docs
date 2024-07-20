@@ -2,7 +2,8 @@
   "scripts": {
     "docs:dev": "vitepress dev vitepress",
     "docs:build": "vitepress build vitepress",
-    "docs:preview": "vitepress preview vitepress"
+    "docs:preview": "vitepress preview vitepress",
+    "start": "vitepress build vitepress && vitepress preview vitepress"
   },
   "devDependencies": {
     "prettier": "^3.1.0",
