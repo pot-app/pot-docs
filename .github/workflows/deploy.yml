@@ -18,23 +18,8 @@ jobs:
           rm vitepress/plugins.json
           wget https://raw.githubusercontent.com/pot-app/pot-app-plugin-list/main/list.json -O vitepress/plugins.json
       - run: pnpm i && pnpm docs:build
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          name: dist
-          path: vitepress/.vitepress/dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          artifact_name: dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./vitepress/.vitepress/dist
