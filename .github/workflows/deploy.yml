@@ -23,8 +23,8 @@ jobs:
           rm vitepress/plugins.json
           wget https://raw.githubusercontent.com/pot-app/pot-app-plugin-list/main/list.json -O vitepress/plugins.json
           ver=$(curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -s https://api.github.com/repos/pot-app/pot-desktop/releases/latest | jq '.tag_name'|tr -d 'v"')
-          sed -i "s/const version =.*/const version = ${ver}/" vitepress/download.md
-          sed -i "s/const version =.*/const version = ${ver}/" vitepress/en/download.md
+          sed -i "s/const version =.*/const version = '${ver}'/" vitepress/download.md
+          sed -i "s/const version =.*/const version = '${ver}'/" vitepress/en/download.md
       - run: pnpm i && pnpm docs:build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
