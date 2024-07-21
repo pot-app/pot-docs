@@ -6,7 +6,6 @@ layout: page
 
 <script setup>
 import { ref,computed } from 'vue'
-import axios from 'axios'
 
 const version = '3.0.5'
 
