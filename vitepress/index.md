@@ -3,7 +3,7 @@
 layout: home
 
 title: Pot
-titleTemplate: 跨平台划词翻译和OCR
+titleTemplate: 跨平台划词翻译和OCR技术使用分享
 
 hero:
   name: Pot
