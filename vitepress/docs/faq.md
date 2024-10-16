@@ -15,8 +15,8 @@ titleTemplate: 常见问题
 
 - 解决方案
 
-  借助 [vxiiduu/VxKex](https://github.com/vxiiduu/VxKex) 项目运行，步骤：
-  1. 在 Releases](https://github.com/vxiiduu/VxKex/releases) 下载 `KexSetup_Release_x_x_x_xxxx.exe` 并安装
+  借助 [i486/VxKex](https://github.com/i486/VxKex) 项目运行，步骤：
+  1. 在 [Releases](https://github.com/i486/VxKex/releases) 下载 `KexSetup_Release_x_x_x_xxxx.exe` 并安装
   2. 进入 Pot 安装目录，右键 `pot.exe` 打开属性
   3. 找到 `VxKex` 选项卡，勾选 `Enable VxKex for this program` 及 `Disable VxKex for child processes` 选项，点击应用。
   4. 然后即可正常使用 Pot
