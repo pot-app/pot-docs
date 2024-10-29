@@ -145,8 +145,7 @@ export const enConfig = {
       ],
     },
     footer: {
-      message: "Released under the <a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE' target='_blank'><b>GPL-3.0</b></a> License<br/>Copyright © 2023-present <a href='https://github.com/pot-app' target='_blank'><b>Pot-App</b></a>",
-      copyright: "<span style='display: flex; justify-content: center'><a href='https://beian.miit.gov.cn' target='_blank'><b>蜀ICP备2023031468号-1</b></a><img src='/img/gongan.png' style='height: 18px; margin: auto 8px'><a href='https://beian.mps.gov.cn/#/query/webSearch?code=51019002005996' rel='noreferrer' target='_blank'><b>川公网安备51019002005996</b></a></span>",
+      message: "Released under the <a href='https://github.com/pot-app/pot-desktop/blob/master/LICENSE' target='_blank'><b>GPL-3.0</b></a> License<br/>Copyright © 2023-present <a href='https://github.com/pot-app' target='_blank'><b>Pot-App</b></a>"
     },
     editLink: {
       pattern:
