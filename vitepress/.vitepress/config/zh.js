@@ -23,6 +23,7 @@ export const zhConfig = {
       { text: "使用指南", link: "/docs/", activeMatch: "/docs/" },
       { text: "下载", link: "/download" },
       { text: "插件列表", link: "/plugin" },
+      { text: "服务状态", link: "https://status.pot-app.com" },
       {
         text: "社区交流",
         items: [
