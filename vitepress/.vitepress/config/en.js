@@ -6,8 +6,8 @@ export const META_DESCRIPTION = "Pot is a powerful cross-platform text selection
 export const enConfig = {
   description: META_DESCRIPTION,
   head: [
-    ["meta", { property: "keywords", content: META_KEYWORDS }],
-    ["meta", { property: "description", content: META_DESCRIPTION }],
+    ["meta", { name: "keywords", content: META_KEYWORDS }],
+    ["meta", { name: "description", content: META_DESCRIPTION }],
     ["meta", { property: "og:url", content: META_URL }],
     ["meta", { property: "og:image", content: "/img/pot-social-card.png" }],
     ["meta", { property: "og:keywords", content: META_KEYWORDS }],
