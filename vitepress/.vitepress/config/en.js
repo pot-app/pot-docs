@@ -1,16 +1,20 @@
-export const META_URL = "https://pot-app.com";
+export const META_URL = "https://pot-app.com/en/";
 export const META_TITLE = "Pot";
-export const META_DESCRIPTION =
-  "Cross-platform software for text translation and ocr recognize.";
+export const META_KEYWORDS = "Translation, OCR, Text Recognition, TTS, Speech Synthesis, Pot Translation Software, Cross-platform Translation Tool, OCR Text Recognition, Text Selection Translation, Screenshot Translation, Multi-engine Translation, AI Translation, ChatGPT, Offline Translation, Text Translation, Google Translate, Papago, Free Translation Software, OpenAI, Zhipu AI, Gemini, Ollama, Alibaba Translation, Baidu Translation, Caiyun Translation, Tencent Translator, Tencent Interactive Translation, Volcano Translation, Niutrans, Google Translate, Bing Translator, DeepL, Youdao Translation, Cambridge Dictionary, Yandex, Lingva, Tatoeba, ECDICT"；
+export const META_DESCRIPTION = "Pot is a powerful cross-platform text selection translation and OCR software that supports multiple translation engines including DeepL, OpenAI, and Google Translate. It features text selection translation, screenshot translation, text recognition, and text-to-speech synthesis. With its clean interface design and quick operation, it will be your ultimate translation software. Supporting offline translation to ensure privacy and security, Pot makes cross-language communication more convenient.";
 
 export const enConfig = {
   description: META_DESCRIPTION,
   head: [
+    ["meta", { property: "keywords", content: META_KEYWORDS }],
+    ["meta", { property: "description", content: META_DESCRIPTION }],
     ["meta", { property: "og:url", content: META_URL }],
     ["meta", { property: "og:image", content: "/img/pot-social-card.png" }],
+    ["meta", { property: "og:keywords", content: META_KEYWORDS }],
     ["meta", { property: "og:description", content: META_DESCRIPTION }],
     ["meta", { property: "twitter:url", content: META_URL }],
     ["meta", { property: "twitter:title", content: META_TITLE }],
+    ["meta", { property: "twitter:keywords", content: META_KEYWORDS }],
     ["meta", { property: "twitter:description", content: META_DESCRIPTION }],
     ["meta", { name: "google-adsense-account", content: "ca-pub-2287479151560516" }],
     ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-D9P8XT4LJS" }],
