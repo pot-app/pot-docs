@@ -16,12 +16,6 @@ export const enConfig = {
     ["meta", { property: "twitter:title", content: META_TITLE }],
     ["meta", { property: "twitter:keywords", content: META_KEYWORDS }],
     ["meta", { property: "twitter:description", content: META_DESCRIPTION }],
-    ["meta", { name: "google-adsense-account", content: "ca-pub-8237414428364862" }],
-    ["script", { async: "", src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8237414428364862", crossorigin: "anonymous" }],
-    ["script", { async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-D9P8XT4LJS" }],
-    ["script", { async: "", src: "/js/google.js" }],
-    ["script", { async: "", src: "/js/baidu.js" }],
-    ["script", { async: "", src: "/js/microsoft.js" }],
   ],
   themeConfig: {
     nav: [
