@@ -19,6 +19,7 @@ export const enConfig = {
   ],
   themeConfig: {
     nav: [
+      { text: "AiHubMix", link: "/en/ads/aihubmix", activeMatch: "/en/ads/" },
       { text: "Guide", link: "/en/docs/", activeMatch: "/en/docs/" },
       { text: "Download", link: "/en/download" },
       { text: "Plugin List", link: "/en/plugin" },
