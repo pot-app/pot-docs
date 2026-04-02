@@ -16,9 +16,7 @@ const members = [
     name: 'Pylogmon',
     title: '发起者',
     links: [
-      { icon: 'github', link: 'https://github.com/Pylogmon' },
-      { icon: {svg: emailIcon }, link:'mailto:pylogmon@pot-app.com' },
-      { icon: {svg: moneyIcon }, link:'https://afdian.net/a/pylogmon' }
+      { icon: 'github', link: 'https://github.com/Pylogmon' }
     ]
   },
   {
@@ -26,8 +24,7 @@ const members = [
     name: 'Ccslykx',
     title: '成员',
     links: [
-      { icon: 'github', link: 'https://github.com/ccslykx' },
-      { icon: {svg: emailIcon }, link:'mailto:ccslykx@pot-app.com' }
+      { icon: 'github', link: 'https://github.com/ccslykx' }
     ]
   },
   {
@@ -35,8 +32,7 @@ const members = [
     name: 'xtyuns',
     title: '成员',
     links: [
-      { icon: 'github', link: 'https://github.com/xtyuns' },
-      { icon: {svg: emailIcon }, link:'mailto:xtyuns@pot-app.com' }
+      { icon: 'github', link: 'https://github.com/xtyuns' }
     ]
   },
   {
@@ -44,8 +40,7 @@ const members = [
     name: 'Avan',
     title: '成员',
     links: [
-      { icon: 'github', link: 'https://github.com/Layouwen' },
-      { icon: {svg: emailIcon }, link:'mailto:avan@pot-app.com' }
+      { icon: 'github', link: 'https://github.com/Layouwen' }
     ]
   },
   {
@@ -53,8 +48,7 @@ const members = [
     name: 'Integral',
     title: '成员',
     links: [
-      { icon: 'github', link: 'https://github.com/Integral-Tech' },
-      { icon: {svg: emailIcon }, link:'mailto:integral@pot-app.com' }
+      { icon: 'github', link: 'https://github.com/Integral-Tech' }
     ]
   }
 ]
