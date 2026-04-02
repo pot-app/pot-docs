@@ -26,11 +26,8 @@ export const zhConfig = {
       {
         text: "社区交流",
         items: [
-          { text: "Telegram", link: "https://t.me/pot_app" },
-          { text: "Matrix", link: "https://matrix.to/#/#pot-app:matrix.org" },
           { text: "QQ频道", link: "https://pd.qq.com/s/akns94e1r" },
           { text: "QQ群组", link: "/img/qq_group.png" },
-          { text: "电子邮件", link: "mailto:support@pot-app.com" },
         ],
       },
       { text: "关于", link: "/about" },
