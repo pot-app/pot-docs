@@ -19,6 +19,7 @@ export const enConfig = {
   ],
   themeConfig: {
     nav: [
+      { text: "New Translation Software Manggo", link: "https://manggo.pylogmon.com", activeMatch: "/en/ads/" },
       { text: "AiHubMix", link: "/en/ads/aihubmix", activeMatch: "/en/ads/" },
       { text: "Guide", link: "/en/docs/", activeMatch: "/en/docs/" },
       { text: "Download", link: "/en/download" },

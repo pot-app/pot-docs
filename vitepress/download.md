@@ -22,6 +22,10 @@ const download = (arch,ext)=>{
 
 <h1 :class="$style.version">{{version}}</h1>
 
+<div :class="$style.info">
+    <p>Pot 现已经不再维护,您可以尝试全新翻译软件 👉<a href="https://manggo.pylogmon.com">Manggo</a>👈</p>
+</div>
+
 <div :class="$style.wrap">
     <div :class="$style.download">
         <div :class="$style.platform">

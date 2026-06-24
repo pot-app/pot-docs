@@ -8,7 +8,7 @@ titleTemplate: Translation & OCR
 hero:
   name: Pot
   text: Translation & OCR
-  tagline: Your last translation software
+  tagline: Pot is no longer maintained, you can try 👉<a href="https://manggo.pylogmon.com">Manggo</a>👈
   image: /logo/icon.svg
   actions:
     - theme: brand

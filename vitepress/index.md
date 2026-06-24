@@ -8,7 +8,7 @@ titleTemplate: 跨平台划词翻译和OCR
 hero:
   name: Pot
   text: 跨平台划词翻译和OCR
-  tagline: 您的最后一款翻译软件
+  tagline: Pot 现已不再维护,您可以尝试 👉<a href="https://manggo.pylogmon.com">Manggo</a>👈
   image: /logo/icon.svg
   actions:
     - theme: brand

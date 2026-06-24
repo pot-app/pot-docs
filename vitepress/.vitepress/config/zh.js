@@ -19,6 +19,7 @@ export const zhConfig = {
   ],
   themeConfig: {
     nav: [
+      { text: "全新翻译软件 Manggo", link: "https://manggo.pylogmon.com", activeMatch: "/ads/" },
       { text: "AiHubMix", link: "/ads/aihubmix", activeMatch: "/ads/" },
       { text: "使用指南", link: "/docs/", activeMatch: "/docs/" },
       { text: "下载", link: "/download" },
