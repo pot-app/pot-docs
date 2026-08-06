@@ -1,9 +1,9 @@
 ---
 title: Pot
-titleTemplate: 质谱 AI
+titleTemplate: 智谱 AI
 ---
 
-# 质谱 AI
+# 智谱 AI
 
 :::info
 教程来源于[划词翻译](https://hcfy.app/)，一个很棒的网页翻译插件
